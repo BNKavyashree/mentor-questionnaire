@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#14352f" />
+    <meta name="description" content="A guided student-support questionnaire for mentors." />
+    <title>Mentor Q&amp;A</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="background-shape background-shape--one" aria-hidden="true"></div>
+    <div class="background-shape background-shape--two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Mentor Q and A home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 36 36" role="img">
+            <path d="M8 7.5h20v15H17l-6.5 5v-5H8z" />
+            <circle cx="14" cy="15" r="1.4" />
+            <circle cx="18" cy="15" r="1.4" />
+            <circle cx="22" cy="15" r="1.4" />
+          </svg>
+        </span>
+        <span>
+          <strong>Mentor Q&amp;A</strong>
+          <small>Mentor response study</small>
+        </span>
+      </a>
+      <span class="header-meta"><span class="status-dot"></span> Responses save as you type</span>
+    </header>
+
+    <main id="app" class="app" tabindex="-1"></main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <noscript>
+      <div class="noscript">JavaScript is required to complete this questionnaire.</div>
+    </noscript>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

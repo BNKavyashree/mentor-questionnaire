@@ -1,0 +1,4 @@
+data/
+tests/
+server.mjs
+npm-debug.log*

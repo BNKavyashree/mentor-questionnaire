@@ -1,0 +1,18 @@
+{
+  "name": "mentor-questionnaire",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A focused, one-question-at-a-time mentor response form.",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node tests/questionnaire.test.mjs && node tests/server.test.mjs && node tests/vercel-submissions.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.100.0"
+  }
+}
