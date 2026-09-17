@@ -245,11 +245,6 @@ h1:focus {
   margin-bottom: 0;
 }
 
-.intro-body strong {
-  color: var(--ink);
-  font-weight: 700;
-}
-
 .intro-actions {
   display: flex;
   align-items: center;
@@ -372,7 +367,7 @@ h1:focus {
   gap: 10px;
   color: rgba(242, 248, 245, 0.86);
   font-size: 0.79rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .brief-list svg {
@@ -386,10 +381,6 @@ h1:focus {
   color: rgba(242, 248, 245, 0.58);
   font-size: 0.72rem;
   line-height: 1.55;
-}
-
-.privacy-note strong {
-  color: rgba(242, 248, 245, 0.82);
 }
 
 .button {

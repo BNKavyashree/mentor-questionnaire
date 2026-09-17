@@ -57,7 +57,11 @@ test("the interface uses the approved neutral wording and required response fiel
 
   assert.match(appSource, /How would you respond to these student questions\?/);
   assert.match(appSource, /Student-support questions/);
+  assert.match(appSource, /Responses are anonymous/);
   assert.match(appSource, /Confirmation before submission/);
+  assert.doesNotMatch(appSource, /There are <strong>20 questions<\/strong>/);
+  assert.doesNotMatch(appSource, /<strong>official university websites/);
+  assert.doesNotMatch(appSource, /<strong>do not use ChatGPT/);
   assert.match(appSource, /required aria-required="true"/);
   assert.doesNotMatch(appSource, /class="quote-mark"/);
   assert.doesNotMatch(appSource, /class="receipt"/);

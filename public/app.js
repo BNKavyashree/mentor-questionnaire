@@ -147,8 +147,7 @@ function renderIntro() {
         <h1 id="intro-title" data-screen-heading tabindex="-1">How would you respond to these student questions?</h1>
         <div class="intro-body">
           <p>Please answer the following questions as you would normally respond to a student.</p>
-          <p>You may consult <strong>official university websites and other relevant information sources</strong> where necessary. Please formulate the responses in your own words and <strong>do not use ChatGPT or other generative AI/LLM tools to prepare your answers.</strong></p>
-          <p>There are <strong>20 questions</strong>, presented one at a time. Your responses are saved automatically, and you can return to earlier questions before submitting.</p>
+          <p>You may consult official university websites and other relevant information sources where necessary. Please formulate the responses in your own words and do not use ChatGPT or other generative AI/LLM tools to prepare your answers.</p>
         </div>
 
         <div class="intro-actions">
@@ -174,10 +173,11 @@ function renderIntro() {
           <div class="brief-list">
             <span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10 3 3 7-7"/></svg> Every question requires a response</span>
             <span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10 3 3 7-7"/></svg> You can go back and revise your answers</span>
+            <span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10 3 3 7-7"/></svg> Responses are anonymous</span>
             <span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 10 3 3 7-7"/></svg> Confirmation before submission</span>
           </div>
         </div>
-        <p class="privacy-note"><strong>Before you start:</strong> responses save in this browser as you type. Pasting into the answer field is disabled, and completed responses are sent to this questionnaire's server when you submit.</p>
+        <p class="privacy-note">Before you start: responses save in this browser as you type. Pasting into the answer field is disabled, and completed responses are sent to this questionnaire's server when you submit.</p>
       </div>
     </section>`;
 
