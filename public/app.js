@@ -487,16 +487,10 @@ function renderSuccess() {
         <small>Submitted</small>
         <strong id="submission-time"></strong>
       </div>
-      <p class="success-note">Your locally saved draft has been removed from this browser. You may now close this window.</p>
-      <button class="button button--secondary" id="restart-button" type="button">Start another response</button>
+      <p class="success-note">Your responses have been submitted. Thank you.</p>
     </section>`;
 
   document.querySelector("#submission-time").textContent = submittedTime;
-
-  document.querySelector("#restart-button").addEventListener("click", () => {
-    state = freshState();
-    render();
-  });
 }
 
 function render() {

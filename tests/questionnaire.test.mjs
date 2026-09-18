@@ -68,5 +68,9 @@ test("the interface uses the approved neutral wording and required response fiel
   assert.doesNotMatch(appSource, /Your experience helps us support students better/);
   assert.doesNotMatch(appSource, /Student-support scenarios/);
   assert.doesNotMatch(appSource, /Final declaration before submission/);
+  assert.doesNotMatch(appSource, /Start another response/);
+  assert.doesNotMatch(appSource, /restart-button/);
+  assert.match(appSource, /Your responses have been submitted\. Thank you\./);
+  assert.doesNotMatch(appSource, /You may now close this window/);
   assert.match(indexSource, /Mentor response study/);
 });
